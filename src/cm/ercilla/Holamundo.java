@@ -3,6 +3,8 @@ package cm.ercilla;
 public class Holamundo {
 
     public static void main (String[] args) {
-        System.out.println("holamundo");
+        Mensaje msg = new Mensaje();
+        String nombre = msg.solicitardatos("escibre tu nombre");
+        msg.saludar(nombre);
     }
 }
