@@ -9,7 +9,7 @@ public class Mensaje {
         return scn.nextLine();
     }
 
-    public void saludar(String nombre) {
+    public void saludar(Persona nombre) {
 System.out.println("Hola %s, bienvenido a java \n", nombre);
     }
 }
